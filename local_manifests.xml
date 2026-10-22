@@ -1,1 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+	<remote name="gh" fetch="https://github.com" />
+  <remote name="ab" fetch="https://github.com/Alromine95" />
+
+  <project name="potato_device_xiaomi_blossom" path="device/xiaomi/blossom" remote="ab" revision="17.0" />
+
+  
