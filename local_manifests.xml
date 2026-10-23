@@ -4,6 +4,19 @@
 	<remote name="gh" fetch="https://github.com" />
   <remote name="ab" fetch="https://github.com/Alromine95" />
 
-  <project name="potato_device_xiaomi_blossom" path="device/xiaomi/blossom" remote="ab" revision="17.0" />
+  <project name="crdroidandroid/android_device_xiaomi_blossom" path="device/xiaomi/blossom" remote="gh" revision="17.0" />
+
+  <project name="crdroidandroid/proprietary_vendor_xiaomi_blossom" path="vendor/xiaomi/blossom" remote="gh" revision="17.0" />
+
+  <project path="device/xiaomi/blossom-kernel" name="crdroidandroid/android_kernel_xiaomi_blossom" remote="gh" revision="17.0" >
+    <linkfile src="headers" dest="kernel/xiaomi/blossom" />
+  </project>  
+
+  <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="gh" revision="lineage-24.0" />
+
+  <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="gh" revision="lineage-24.0" />
+
+
+  </manifest>
 
   
