@@ -3,6 +3,7 @@
 
 	<remote name="gh" fetch="https://github.com" />
   <remote name="ab" fetch="https://github.com/Alromine95" />
+  <remote name="jk" fetch="https://github.com/Jayedkhan800" />
 
   <project name="crdroidandroid/android_device_xiaomi_blossom" path="device/xiaomi/blossom" remote="gh" revision="17.0" />
 
@@ -12,9 +13,9 @@
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>  
 
-  <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="gh" revision="lineage-24.0" />
+  <project name="android_hardware_mediatek" path="hardware/mediatek" remote="jk" revision="17.0" />
 
-  <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="gh" revision="lineage-24.0" />
+  <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="jk" revision="17" />
 
 
   </manifest>
