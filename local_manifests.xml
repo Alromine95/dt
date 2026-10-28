@@ -5,7 +5,7 @@
   <remote name="ab" fetch="https://github.com/Alromine95" />
   <remote name="jk" fetch="https://github.com/Jayedkhan800" />
 
-  <project name="crdroidandroid/android_device_xiaomi_blossom" path="device/xiaomi/blossom" remote="gh" revision="17.0" />
+  <project name="tree_device_xiaomi_blossom" path="device/xiaomi/blossom" remote="ab" revision="17.0" />
 
   <project name="crdroidandroid/proprietary_vendor_xiaomi_blossom" path="vendor/xiaomi/blossom" remote="gh" revision="17.0" />
 
