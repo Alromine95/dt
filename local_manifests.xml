@@ -13,7 +13,6 @@
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>  
 
-  <project name="android_hardware_mediatek" path="hardware/mediatek" remote="jk" revision="17.0" />
 
   <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="jk" revision="sixteen" />
 
