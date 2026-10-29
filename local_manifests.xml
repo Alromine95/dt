@@ -16,7 +16,6 @@
 
   <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="jk" revision="sixteen" />
 
-  <remove-project name="RisingOS-Revived/android_hardware_interfaces" />
 
 
   </manifest>
